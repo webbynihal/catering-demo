@@ -305,6 +305,18 @@ ul{
     gap:15px;
 }
 
+#eventForm .form-group{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+#eventForm label{
+    color:#555;
+    font-size:0.95rem;
+    font-weight:500;
+}
+
 #eventForm input,
 #eventForm select,
 #eventForm textarea{
